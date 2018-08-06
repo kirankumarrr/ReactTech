@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom';
 //import WithOutPureComponent from './PureComponents/WithOutPureComponent.js';
 //import registerServiceWorker from './registerServiceWorker';
 //import AutosuggestSearch from './Search/AutoCompleteSearch';
-import AppRouter from './Router/App';
+//import AppRouter from './Router/App';
+import SearchDrop from './Search//SearchDrop';
 
-ReactDOM.render(<AppRouter />, document.getElementById('root'));
+ReactDOM.render(<SearchDrop />, document.getElementById('root'));
