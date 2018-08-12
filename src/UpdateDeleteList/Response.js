@@ -23,7 +23,7 @@ class App extends Component {
                     users:data,
                 })
                 console.log(data);
-                console.log(this.state.users);
+                console.log(this.state.users);  
             })
    } 
 
@@ -48,7 +48,7 @@ class App extends Component {
                     <td>{data.login}</td>
                     <td>{data.id}</td>
                     <td>{data.node_id}</td>
-                    <td><img src={data.avatar_url} alt="avatar_img"/></td>
+                    <td><img src={data.avatar_url/} alt="avatar_img"/></td>
                   </tr>
                 
             )
